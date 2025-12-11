@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Samin | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-black text-white px-10 py-5 flex justify-between items-center shadow-lg sticky top-0 z-50">
+        <h1 class="text-2xl font-bold tracking-wide">Jack Sparrow</h1>
+
+        <div class="space-x-8 text-lg">
+            <a href="#about" class="hover:text-yellow-400 transition">About</a>
+            <a href="#skills" class="hover:text-yellow-400 transition">Skills</a>
+            <a href="#projects" class="hover:text-yellow-400 transition">Projects</a>
+            <a href="#education" class="hover:text-yellow-400 transition">Education</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="bg-cover bg-center h-[60vh] flex items-center justify-center" 
+        style="background-image: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769');">
+        <div class="bg-black bg-opacity-60 p-10 rounded-xl text-center text-white">
+            <h2 class="text-4xl font-bold mb-3">Aspiring Software Engineer</h2>
+            <p class="text-lg opacity-90">Building, creating, and pushing myself toward greatness.</p>
+
+            <div class="mt-6 space-x-4">
+                <a href="#skills" class="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-lg text-black font-semibold shadow-md transition">
+                    View Skills
+                </a>
+                <a href="#projects" class="px-6 py-3 bg-white hover:bg-gray-200 rounded-lg text-black font-semibold shadow-md transition">
+                    See Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="max-w-6xl mx-auto p-8">
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="mb-20">
+            <h2 class="text-3xl font-bold border-l-8 border-yellow-500 pl-4 mb-6">About Me</h2>
+
+            <p class="text-lg leading-relaxed mb-4">
+                I am an aspiring software engineer with strong interests in computers, motorcycling, sports, gaming, and outdoor adventures.
+                My biggest inspiration is myself — constantly pushing my limits, sharpening my skills, and pursuing greater challenges.
+            </p>
+
+            <p class="text-lg leading-relaxed">
+                I live by the motto: 
+                <span class="italic font-semibold">“We don’t see things as they are, we see things as we are.”</span>  
+                My strengths lie in my mental fortitude and discipline, while my ongoing battle with procrastination keeps me grounded and aware.
+            </p>
+
+            <p class="text-lg leading-relaxed mt-4">
+                Beyond tech, I’m passionate about combat sports and physical challenges.  
+                My bucket list includes skydiving, participating in a professional sports bike track day, 
+                and fighting more combat sports events — despite my fear of heights.
+            </p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="mb-20">
+            <h2 class="text-3xl font-bold border-l-8 border-yellow-500 pl-4 mb-8">Technical Skills</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="p-6 bg-white shadow-md rounded-xl hover:-translate-y-1 transition">
+                    <h3 class="font-semibold text-xl mb-3">Programming Languages</h3>
+                    <ul class="list-disc ml-5 space-y-1">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-xl hover:-translate-y-1 transition">
+                    <h3 class="font-semibold text-xl mb-3">Frameworks & Libraries</h3>
+                    <ul class="list-disc ml-5 space-y-1">
+                        <li>React.js</li>
+                        <li>Laravel</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-xl hover:-translate-y-1 transition">
+                    <h3 class="font-semibold text-xl mb-3">Tools</h3>
+                    <ul class="list-disc ml-5 space-y-1">
+                        <li>Git & GitHub</li>
+                        <li>Figma</li>
+                        <li>Postman</li>
+                        <li>Docker (Basic)</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-xl hover:-translate-y-1 transition">
+                    <h3 class="font-semibold text-xl mb-3">Databases</h3>
+                    <ul class="list-disc ml-5 space-y-1">
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-xl hover:-translate-y-1 transition">
+                    <h3 class="font-semibold text-xl mb-3">Cloud</h3>
+                    <ul class="list-disc ml-5 space-y-1">
+                        <li>AWS (Basic)</li>
+                        <li>Firebase</li>
+                        <li>Vercel</li>
+                        <li>Netlify</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="mb-20">
+            <h2 class="text-3xl font-bold border-l-8 border-yellow-500 pl-4 mb-8">Projects</h2>
+
+            <div class="space-y-10">
+
+                <!-- Project 1 -->
+                <div class="p-6 bg-white shadow-lg rounded-xl">
+                    <h3 class="text-2xl font-bold mb-2">Impound Comics – Digital Editor</h3>
+                    <p class="text-lg leading-relaxed mb-3">
+                        Assisted in editing and preparing digital comic assets for publication. 
+                        Worked closely with artists, improved visual sequences, refined layouts, and ensured 
+                        consistency across releases. Strengthened skills in digital workflow management and creative production.
+                    </p>
+                    <p><strong>Tools:</strong> Photoshop, Cloud Collaboration Tools</p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="p-6 bg-white shadow-lg rounded-xl">
+                    <h3 class="text-2xl font-bold mb-2">Phosclay Cosmetic Trading – Website Development (OJT)</h3>
+                    <p class="text-lg leading-relaxed mb-3">
+                        Developed a functional business website for product display and company information. 
+                        Designed the frontend, structured the backend logic, and created the product database. 
+                        Improved skills in full-stack development and user-focused design.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, SQL, Java</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="mb-20">
+            <h2 class="text-3xl font-bold border-l-8 border-yellow-500 pl-4 mb-8">Education & Certifications</h2>
+
+            <div class="bg-white p-6 shadow-md rounded-xl mb-6">
+                <h3 class="text-xl font-semibold">Bachelor of Science in Computer Science</h3>
+                <p>Emilio Aguinaldo College</p>
+                <p class="italic text-gray-700">Expected Graduation: 2026</p>
+            </div>
+
+            <div class="bg-white p-6 shadow-md rounded-xl">
+                <h3 class="text-xl font-semibold mb-3">Certifications</h3>
+                <ul class="list-disc ml-5 space-y-1">
+                    <li>Google IT Support Fundamentals</li>
+                    <li>AWS Cloud Practitioner (Beginner)</li>
+                    <li>Cisco Introduction to Cybersecurity</li>
+                    <li>Coursera – Programming Foundations with JavaScript</li>
+                    <li>SoloLearn Python Developer Certificate</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="bg-black text-white text-center py-6 mt-10">
+        &copy; 2025 KIM SAMIN • Portfolio Website
+    </footer>
+
+</body>
+</html>
